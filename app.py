@@ -74,7 +74,7 @@ if __name__ == '__main__':
 	model = load('model_iris_dt.model')
 
 	# Run Flask di Google Colab menggunakan ngrok
-	run_with_ngrok(app)
+	#run_with_ngrok(app)
 	app.run()
 	
 	
